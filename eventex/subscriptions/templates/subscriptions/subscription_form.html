@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form action="." method="post" class="form-horizontal">
+        {% csrf_token %}
+        </br>
+        <div class="control-group">
+            <label for="{{ form.name.id_for_label }}">{{ form.name.label }}</label>
+            <div class="controls">
+                {{ form.name }}
+                {{ form.errors }}
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="{{ form.cpf.id_for_label }}">{{ form.cpf.label }}</label>
+            <div class="controls">
+                {{ form.cpf }}
+                {{ form.errors }}
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="{{ form.email.id_for_label }}">{{ form.email.label }}</label>
+            <div class="controls">
+                {{ form.email }}
+                {{ form.errors }}
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="{{ form.phone.id_for_label }}">{{ form.phone.label }}</label>
+            <div class="controls">
+                {{ form.phone }}
+                {{ form.errors }}
+            </div>
+        </div>
+        </br>
+        <div class="control-group">
+
+            <div class="controls">
+                <input type="submit" value="Enviar!" class="button"/>
+            </div>
+        </div>
+    </form>
+{% endblock %}
