@@ -1,11 +1,11 @@
 /*
 CSS
 */
- 
+
 html {
   background-color: #E8DDCB;
 }
- 
+
 body {
   margin: 0;
   padding: 0;
@@ -13,32 +13,32 @@ body {
   background-color: #E8DDCB;
   color: #363636;
 }
- 
+
 #page {
   margin: 0 auto;
   padding: 20px 0 0 0;
   width: 800px;
   font-size: 1.2em;
 }
- 
+
 /*
 General
 */
- 
+
 p {
 	margin: 1.4em 0;
 	padding: 0;
 	line-height: 1.4em;
 }
- 
+
 img {
 	border: 0;
 }
- 
+
 hr {
 	display: none;
 }
- 
+
 a,
 a:link,
 a:active,
@@ -47,11 +47,11 @@ a:visited {
 	text-decoration: none;
 	border-bottom: 1px dotted #033649;
 }
- 
+
 a:hover {
 	border-bottom: 1px solid #033649;
 }
- 
+
 blockquote {
   margin: auto;
   padding: 0;
@@ -62,16 +62,16 @@ blockquote {
   font-size: 2em;
   font-style: italic;
 }
- 
+
 blockquote p {
 	line-height: 2em;
 	background: transparent url(../images/quote-right.gif) no-repeat bottom right;
 }
- 
+
 /*
 Headers
 */
- 
+
 h1,
 h2,
 h3,
@@ -81,14 +81,14 @@ h4 {
 	padding: 0;
 	text-shadow: 1px 1px 0 #fff;
 }
- 
+
 h1 {
 	font-weight: normal;
 	font-size: 2.2em;
 	text-align: center;
 	color: #031634;
 }
- 
+
 h2 {
 	margin: .643em 0;
 	font-weight: normal;
@@ -97,40 +97,40 @@ h2 {
 	font-style: italic;
 	clear: both;
 }
- 
+
 h3 {
 	margin: .643em 0;
 	font-weight: normal;
 	font-size: 1.6em;
 	color: #036564;
 }
- 
+
 h4 {
 	margin: .643em 0;
 	font-weight: normal;
 	font-size: 1.4em;
 	color: #036564;
 }
- 
+
 h1#about,
 h2#badge-subtitle {
   margin: 1em 0 .4em 0;
   font-size: 1.3em;
   color: #363636;
 }
- 
+
 h2#badge-subtitle {
   text-align: center;
 }
- 
+
 /*
 Header
 */
- 
+
 #header {
   border-bottom: 1px dotted #CDB380;
 }
- 
+
 #header #logo {
   margin: auto;
   width: 300px;
@@ -138,59 +138,59 @@ Header
   background: transparent url(../images/logo-small-acts.png) no-repeat 0 0;
   text-indent: -9999px;
 }
- 
+
 #header #logo a {
   display: block;
   width: 300px;
   height: 215px;
   border: none;
 }
- 
+
 #header blockquote p {
   text-shadow: 1px 1px 0 #fff;
 }
- 
+
 /*
 Content
 */
- 
+
 #content {
   margin: 0 20px;
   font-size: 1.4em;
   text-shadow: 1px 1px 0 #fff;
 }
- 
+
 ul#acts li {
   line-height: 1.4em;
 }
- 
+
 ul#members {
 	list-style-type: none;
 	margin: 0 0 20px 0;
 	padding: 0;
 	font-size: .76em;
 }
- 
+
 ul#members li {
 	width: 252px;
 	line-height: 2em;
 	text-align: center;
 	float: left;
 }
- 
+
 #badge-content {
   font-size: .8em;
   margin: 0 0 20px 0;
 }
- 
+
 #badge-content p {
   margin: 1em 0 0 0;
 }
- 
+
 #badge-content a {
   border: none;
 }
- 
+
 #badge-content textarea {
   margin: 0;
   padding: 10px;
@@ -203,36 +203,36 @@ ul#members li {
   color: #031634;
   background-color: #fff;
 }
- 
+
 /*
 Forms
 */
- 
+
 form {
   margin: 20px 0;
   padding: 0;
 }
- 
+
 fieldset {
   margin: 0;
   padding: 20px;
 }
- 
+
 form div {
   padding: 0 0 5px 0;
 }
- 
+
 form input {
   font-size: 1.1em;
   padding: 2px;
   display: block;
   width: 400px;
 }
- 
+
 .error {
   color: #900;
 }
- 
+
 form p {
   /*margin: -35px 0 0 440px;*/
   padding: 8px;
@@ -244,17 +244,17 @@ form p {
   /*font-size: .9em;*/
   font-family: Arial, Helvetica, Sans-Serif;
 }
- 
+
 form p em {
   /*font-size: 1.2em;*/
   /*display: block;*/
 }
- 
+
 .info_label {
   display: none;
   text-shadow: none;
 }
- 
+
 .button {
   width: 200px;
   text-align: center;
@@ -265,31 +265,31 @@ form p em {
   border: none;
   text-shadow: -1px -1px 0 #000;
 }
- 
+
 /*
 Footer
 */
- 
+
 #footer {
   clear: both;
   font-size: .9em;
   padding: 0 20px;
   border-top: 1px dotted #CDB380;
 }
- 
+
 #footer img {
   vertical-align: middle;
 }
- 
+
 #footer #django {
   float: right;
   border: none;
 }
- 
+
 /*
 Clearfix
 */
- 
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -297,16 +297,16 @@ Clearfix
     clear: both;
     visibility: hidden;
 }
- 
+
 .clearfix {
 	display: inline-table;
 }
- 
+
 /* Hides from IE-mac \*/
 .clearfix {
 	height: 1%;
 }
- 
+
 .clearfix {
 	display: block;
 }
